@@ -1,0 +1,74 @@
+ /* .main-slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+} */
+
+/* .img {
+    width: 90%;
+} 
+
+.carousel {
+    margin-left:10%;
+    margin-top: 20px;
+}
+*/
+.h3-slider{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    height: 60px;
+    margin-top: 20px;
+    display: flex; justify-content: space-around; align-items: center;
+    color: rgb(187, 187, 187);  
+} 
+.name-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    justify-content: center;
+    color: white;
+    font-size: 200px;
+    letter-spacing: 40px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 1));
+}
+
+.img-jobbooz {
+    width: 100%;
+    height: 100vh;
+}
+
+.buton-main {
+    position: absolute !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.buton {
+    cursor: pointer;
+    position: relative;
+    top: 240px;
+    height: 60px;
+    width: 160px;
+    backdrop-filter: blur(4px);
+    background-color: transparent;
+    text-decoration:none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 1px;
+}
